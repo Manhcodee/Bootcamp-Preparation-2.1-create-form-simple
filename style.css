@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 1000px;
+    height: 500px;
+    border: 30px solid #d5feff;
+    margin: auto;
+}
+
+.header {
+    font-size: 40px;
+    color: #fff;
+    background-color: #ff4c00;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.text {
+    font-size: 30px;
+    color: #223bb4;
+    margin-right: 20px;
+}
+
+.container {
+    margin-left: 60px;
+    width: 700px;
+}
+
+.fullname, .fullemail, .hobby-full {
+    margin-top: 20px;
+}
+
+.name, .email {
+    font-size: 20px;
+}
+
+.email {
+    width: 200px;
+}
+
+.text-email {
+    margin-left: 52px;
+}
+
+.hobby-full {
+    display: flex;
+}
+
+.text-hobby {
+    width: 310px;
+    margin-right: 0;
+    padding-left: 15px;
+}
+
+.hobby {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobby-radio {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.leble {
+    width: 180px;
+    color: #ff8954;
+}
+
+.footer {
+    margin-left: 130px;
+}
+
+.submit {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: #ccc;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.form2 {
+    width: 200px;
+    height: 35px;
+    border: #ccc;
+    border-radius: 5px;
+}
+
+a.link {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}

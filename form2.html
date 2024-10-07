@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký học viên</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+<form action="">
+    <div class="header" style="text-transform: uppercase">Đăng ký học viên</div>
+    <div class="container">
+        <div class="full-value">
+            <div class="text">Họ và tên</div>
+            <label><input class = "input-form" type="text" name="name"></label>
+        </div>
+        <div class="full-value">
+            <div class="text">Ngày sinh</div>
+            <lable><input class = "input-form" type="text" name="date"></lable>
+        </div>
+        <div class="full-value">
+            <div class="text">Giới tính</div>
+            <lablel class="lablel-input">
+                <input type="radio" class="input-radio" name="gender"> Nam
+                <input type="radio" class="input-radio" name="gender"> Nữ
+            </lablel>
+        </div>
+        <div class="full-value">
+            <div class="text">Địa chỉ</div>
+            <textarea></textarea>
+        </div>
+        <div class="full-value">
+            <div class="text">Lớp</div>
+            <select name="class" id="class">
+                <option value="option">--Chọn lớp--</option>
+                <option>Lớp 1</option>
+            </select>
+        </div>
+        <div class="full-value">
+            <div class="text">Email</div>
+            <input class = "input-form" type="email" name="email">
+        </div>
+        <div class="full-value">
+            <div class="text">Điện thoại</div>
+            <input class = "input-form" type="tel" name="phone">
+        </div>
+        <div class="full-value value-button">
+            <button type="submit">Đăng ký</button>
+            <button type="reset">Nhập lại</button>
+            <button><a href="./index.html" style="text-decoration: none; color: #000;">Sở thích của bạn</a></button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
